@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+.topnav {
+    background-color: red;
+    height: calc(50px - 2px);
+    text-align: center;
+    font-size: 20px;
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    
+    border: solid 1px black;
+
+    width: calc(100vw - 2px);
+}
+
+.margin{
+    margin-top: 0px;
+}
+
+a:hover {
+    color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.flexi{
+    display: flex;
+    height: calc(100vh - 50px);
+    width: 100vw;
+    background-color: red;
+    
+}
+
+.sidebar {
+    height: calc(100vh - 50px);
+    width: 5vw;
+    background-color: red;
+    
+}
+
+.main {
+    height: calc(100vh - 50px);
+    width: 95vw;
+    background-color: white;
+}
+a{
+    padding-bottom: 10px;
+}
