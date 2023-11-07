@@ -30,7 +30,9 @@ a:hover {
     color: white;
     font-size: 25px;
 }
-
+.center{
+    text-align: center;
+}
 .right{
     text-align: right;
 }
@@ -62,4 +64,26 @@ ul{
     list-style: none ;
     padding: 0px;
 
+}
+
+.card { 
+    justify-content: space-evenly;
+    width: 20%; 
+    background-color: white; 
+    margin: 3%; 
+    border: 1px solid; 
+} 
+
+.card-txt { 
+    justify-content: space-evenly;
+    text-align: center; 
+    padding: 10px; 
+} 
+.imghouse{
+    width: 100vw;
+    height: 70vh;
+}
+.flexcolumn{
+    display: flex;
+    justify-content: space-evenly;
 }
